@@ -113,12 +113,12 @@ session_destroy();
             Caso tente algumas vezes e não consiga seu sinal será bloqueado com essa página. 
           </p>
         </div>
-        
+        <br>
         </div>
             <form action="#" method="post">
-                <input type="text" name="nome" id="idnome" placeholder="Digite seu login"><br>
-                <input type="password" name="senha" id="idsenha" placeholder="Digite sua senha"><br>
-                <button type="submit">Logar</button>
+                <input type="text" name="nome" id="idnome" placeholder="Digite seu login" class="form-control"><br>
+                <input type="password" name="senha" id="idsenha" placeholder="Digite sua senha" class="form-control"><br>
+                <button type="submit" class="btn btn-primary">Logar</button>
             </form>
         </div>
       </div>
